@@ -26,3 +26,9 @@ Enter a number: 16
 16 is not frue
 """
 
+number = int(input("Enter a number: "))
+
+import math
+
+divisible = number%8
+
