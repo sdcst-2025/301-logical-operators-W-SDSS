@@ -34,7 +34,9 @@ Enter a number: 64
 number = float(input("Enter a number: "))
 
 import math
-perfect_square = number**(1/2)
+perfect_square = math.sqrt(number)
+round_sqrt = round(perfect_squre, 8)
+
 divisible = number%2
 
 if perfect_square == int:
