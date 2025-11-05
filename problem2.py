@@ -26,3 +26,17 @@ Enter a number: 4
 Enter another number: 25
 4 is not a factor of 25
 """
+numbera = int(input("Enter a number: "))
+numberb = int(input("Enter another number: "))
+
+number = [numbera, numberb]
+max = max(number)
+min = min(number)
+
+import math
+a = max%min
+
+if a == 0:
+    print(f"{min} is a factor of {max}")
+else:
+    print(f"{min} is not a factor of {max}")

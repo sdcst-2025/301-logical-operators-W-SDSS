@@ -34,12 +34,13 @@ Enter a number: 64
 number = float(input("Enter a number: "))
 
 import math
+
 perfect_square = math.sqrt(number)
-round_sqrt = round(perfect_squre, 8)
+round_sqrt = round(perfect_square, 8)
 
 divisible = number%2
 
-if perfect_square == int:
+if round_sqrt == int:
     if divisible == 0:
         print(f"{number} is both a perfect square and a divisible by 2.")
     else:

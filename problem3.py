@@ -30,3 +30,11 @@ Enter an integer=>4
 Enter an integer=>2
 2,4,5 do not form a Pythagorean triple
 """
+numbera = int(input("Enter an integer: "))
+numberb = int(input("Enter an integer: "))
+numberc = int(input("Enter an integer: "))
+
+number = [numbera, numberb, numberc]
+max = max(number)
+min = min(number)
+
