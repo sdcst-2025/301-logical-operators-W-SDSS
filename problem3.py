@@ -37,4 +37,16 @@ numberc = int(input("Enter an integer: "))
 number = [numbera, numberb, numberc]
 max = max(number)
 min = min(number)
+middle = sorted(number)
 
+import math
+
+max = math.sqrt(min**2 + middle**2)
+max = True
+
+if max == True:
+    print(f"{max}, {middle}, {min} form a Pythagorean triple")
+else:
+    print(f"{max}, {middle}, {min} do not form a Pythagorean triple")
+
+#middle no motomekata wo sagasu !!

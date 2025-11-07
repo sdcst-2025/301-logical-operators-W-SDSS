@@ -26,7 +26,9 @@ Enter a number: 4.0
 """
 number = float(input("Enter a number: "))
 
-if number == int and number > 0:
+if  isinstance(number, int) and number > 0:
     print(f"{number} is a positive integer.")
 else:
     print(f"{number} is not a positive integer.")
+
+#koremo int no mondai

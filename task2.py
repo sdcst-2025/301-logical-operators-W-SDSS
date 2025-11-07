@@ -40,7 +40,7 @@ round_sqrt = round(perfect_square, 8)
 
 divisible = number%2
 
-if round_sqrt == int:
+if type(round_sqrt) is int:
     if divisible == 0:
         print(f"{number} is both a perfect square and a divisible by 2.")
     else:
@@ -50,3 +50,5 @@ else:
         print(f"{number} is only divisible by 2.")
     else:
         print(f"{number} is ")
+
+#int wo kakunin suru houhou wo sagasu
